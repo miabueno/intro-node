@@ -1,7 +1,8 @@
-const superheroes = require('superheroes');
+const sh = require('superheroes');
+const sv = require('supervillains');
 
-console.log("There are " + superheroes.all.length + " superhero names in this package!");
-//=> ['3-D Man', 'A-Bomb', …]
+//console.log("There are " + sh.all.length + " superhero names");
+//console.log("There are " + sv.all.length + " supervillain names");
 
-console.log(superheroes.random());
-//=> 'Spider-Ham'
+console.log("Superhero: " + sh.random());
+console.log("Supervillain: " + sv.random());
